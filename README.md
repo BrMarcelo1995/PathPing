@@ -20,6 +20,7 @@ Gerência de processo (-P / --stop) — grava o PID em arquivo e permite parar o
 **Compilar**
 gcc -O2 -Wall -o pathping.exe pathping_win.c -lws2_32 -liphlpapi
 Requer MinGW-w64, MSYS2 ou w64devkit. Não precisa de privilégio de administrador.
+
 **Uso rápido**
 pathping.exe 8.8.8.8 -c 3 -w 80
 pathping.exe 10.0.0.1 -l -c 1 -i 1000 -p 5060 -o voz.csv -r 30 -P voz.pid -b
